@@ -1,0 +1,37 @@
+body {
+    background: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    padding: 50px;
+    box-sizing: border-box;
+    position: relative;
+    margin: 0 auto;
+}
+
+.header {
+    background: url('../_img/header-bg.png');
+}
+
+.header .nav {
+    position: relative;
+}
+
+.header .nav .left-side,
+.header .nav .right-side {
+    width: 35%;
+}
+
+.main-logo {
+    width: 192px;
+    height: 201px;
+    display: inline-block;
+    background: url(../_img/logo.png)no-repeat center / contain;
+    position: absolute;
+    margin: 0 0 0 -96px;
+    left: 50%;
+    color: transparent;
+}
